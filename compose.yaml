@@ -1,0 +1,6 @@
+FROM demo/oracle-java:17
+COPY  /imagen/
+ARG JAR_FILE=target/*.jar
+ADD ${JAR_FILE} monitoreo.jar
+ENTRYPOINT ["java","-jar","monitoreo.jar"]
+RUN cat /imagen
