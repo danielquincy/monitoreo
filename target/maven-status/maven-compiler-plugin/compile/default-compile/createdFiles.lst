@@ -1,0 +1,6 @@
+com\example\monitorio\controller\MetricsController.class
+com\example\monitorio\controller\MetricsController$1.class
+com\example\monitorio\AppMonitoreoApplication.class
+com\example\monitorio\service\MetricsServiceImpl.class
+com\example\monitorio\service\MetricsService.class
+com\example\monitorio\entity\Metrics.class
